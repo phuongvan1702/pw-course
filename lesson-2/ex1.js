@@ -1,9 +1,8 @@
-const _number = 12;
-let name1 = "my number";
-let x = _number;
-let _isEven = false;
-if ( x % 2 === 0) { 
-    _isEven = true ;
+const number = 12;
+let name = "my number";
+let isEven = false;
+if ( number % 2 === 0) { 
+    isEven = true ;
 }
 
-console.log(_isEven.toString());
+console.log(isEven);
