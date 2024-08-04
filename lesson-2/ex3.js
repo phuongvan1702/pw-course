@@ -1,10 +1,12 @@
-const Number = 236 ;
-if (Number > 0 ) {
-    console.log("Giá trị bạn nhập là số dương")
+const number = 236;
+if (number > 0) {
+    console.log("Giá trị bạn nhập là số dương");
 }
-if (Number < 0 ) {
-    console.log("Giá trị bạn nhập là số âm")
-} 
-if (Number == 0 ) {
-    console.log("Giá trị bạn nhập là số 0")
+
+if (number < 0) {
+    console.log("Giá trị bạn nhập là số âm");
+}
+
+if (number == 0) {
+    console.log("Giá trị bạn nhập là số 0");
 }

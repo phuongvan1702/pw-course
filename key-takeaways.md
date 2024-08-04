@@ -7,7 +7,7 @@
 ##Git
 -Là công cụ quản lý phiên bản, đưa file vào Git repository
 -Có các tính năng của Version Control System
--Các vùng trạng thái của git
+-Các vùng trạng thái của gitp
 1.Working Directory : git init : *Khởi tạo folder chứa các file mới và thay đổi*
 2.Staging Area: git add <Tên file> *Đưa file vào vùng Staging Area chuẩn bị commit*
 3.Repository: git commit -m "message" *Đưa file vào vùng Repository*
