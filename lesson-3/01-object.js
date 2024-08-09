@@ -33,14 +33,14 @@
 
 //Bài 4: Tạo một object product với các thuộc tính là tên các sản phẩm và giá trị là giá của chúng. Dùng vòng lặp for...in để in ra tên và giá của mỗi sản phẩm.
 
-// let product = {
-//     "name": ["sách", "vở", "bút", "thước kẻ", "tẩy"],
-//     "price": [25000, 5000, 15000, 7000, 3000]
-// }
-// for (let i =0 ; i < product.length; i++)
-// {
-//     console.log( i + " Có giá là : " + product[i]);
-// }
+let product = {
+    "name": ["sách", "vở", "bút", "thước kẻ", "tẩy"],
+    "price": [25000, 5000, 15000, 7000, 3000]
+}
+for (let i =0 ; i < product.length; i++)
+{
+    console.log( i + " Có giá là : " + product[i]);
+}
 
 
 // Bài 5: Tạo một object settings để quản lý cài đặt của ứng dụng với các thuộc tính như volume, brightness. Thay đổi volume và in ra object mới.
@@ -77,5 +77,5 @@
 // }
 // for (let i =0 ; i < school.length; i++)
 // {
-//     console.log(school);
+//     console.log(school[[i]]);
 // }
