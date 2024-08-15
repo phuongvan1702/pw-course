@@ -39,24 +39,24 @@
 
 // // Bài 4.	Lọc ra tất cả các phần tử duy nhất trong một mảng. Ví dụ với mảng [1, 2, 3, 1, 2, 4,5] thì các phần tử duy nhất (xuất hiện 1 lần) là: [3, 5]
 
-// function timPhanTuDuyNhat(arr) {
-//     let newArr = []
+function timPhanTuDuyNhat(arr) {
+    let newArr = []
 
-//     for (let i of arr) {
-//         let count = 0;
+    for (let i of arr) {
+        let count = 0;
 
-//         for (let j of arr) {
+        for (let j of arr) {
 
-//             if (i === j) {
-//                 count = count + 1;
-//             }
-//         }
+            if (i === j) {
+                count = count + 1;
+            }
+        }
 
-//         if (count === 1) {
-//             newArr.push(i);
-//         }
-//     }
-//     console.log(newArr);
-// }
-// let arr = [1, 2, 3, 1, 2, 4, 5];
-// timPhanTuDuyNhat(arr);
+        if (count === 1) {
+            newArr.push(i);
+        }
+    }
+    console.log(newArr);
+}
+let arr = [1, 2, 3, 1, 2, 4, 5];
+timPhanTuDuyNhat(arr);

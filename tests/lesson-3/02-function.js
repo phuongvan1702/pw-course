@@ -123,7 +123,7 @@
 //        {name: "dung", score :9},
 //        {name: "Mit", score :10}];
 
-// function diemTrungBinh (a) {
+// function diemTrungBinh (diemsinhvien) {
 //     let b = 0;
 //     for (let i =0; i< diemsinhvien.length; i++){
 //         b = b + diemsinhvien[i].score;  
